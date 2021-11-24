@@ -1,0 +1,48 @@
+
+$font-family-serif: "Playfair Display",
+system-ui,
+serif;
+$font-family-sans-serif: "Poppins",
+system-ui,
+-apple-system,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+"Liberation Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+
+// CUSTOM COLORS
+$red-900:#8C2531;
+$red-800:#AF1F34;
+$red-700:#F08594;
+
+
+$blue-dark:#00375B;
+$blue-light:#439DB4;
+
+$kalika-yellow:#D2AA3D;
+
+$bc-gray-50:#E8E8E8;
+$bc-gray-100:#F9F9F9;
+$bc-gray-700:#B2A8AA;
+$bc-gray-800:#7A7A7A;
+$bc-gray-900:#00121D;
+$bc-gray-1000:#231C1D;
+
+$bg-footer:$bc-gray-900;
+$primary:$kalika-yellow;
+
+$body-color:$bc-gray-800;
+$counter-width:3.5rem;
+
+:root {
+  --gutter-size:16px;  
+  --header-height:70px;
+}
+

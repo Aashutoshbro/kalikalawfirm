@@ -1,0 +1,49 @@
+
+h1,h2,h3,h5{
+    color:$bc-gray-900;
+    font-weight: 700;
+    font-family: $font-family-serif;
+}
+h4{
+color:$kalika-yellow;
+text-transform:uppercase;
+font-weight: 700;
+letter-spacing: 166%;
+}
+
+
+h1 {
+    @include fluid-type('font-size', 375px, 1440px, 32px, 60px);
+    letter-spacing: -33%;
+
+}
+
+h2 {
+    @include fluid-type('font-size', 375px, 1440px, 30px, 48px);
+    letter-spacing: -50%;
+
+}
+
+h3 {
+    @include fluid-type('font-size', 375px, 1440px, 24px, 36px);
+}
+
+h4 {
+    @include fluid-type('font-size', 375px, 1440px, 12px, 14px);
+}
+
+h5 {
+    @include fluid-type('font-size', 375px, 1440px, 16px, 20px);
+}
+
+p {
+    @include fluid-type('font-size', 375px, 1440px, 14px, 15px);
+    line-height: 175%;
+}
+
+.p2{
+    @include fluid-type('font-size', 375px, 1440px, 15px, 20px);
+    line-height: 175%;
+
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Demo Project as a part of Proshore Interview",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-concat-vendor": "^0.0.4",
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.38.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
