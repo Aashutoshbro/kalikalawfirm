@@ -12255,6 +12255,10 @@ body {
   .navbar .megamenu {
     display: block;
   }
+
+  .navbar-brand img {
+    width: 120px;
+  }
 }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
@@ -12395,7 +12399,7 @@ body {
 
 @media screen and (max-width: 786px) {
   .main-nav.menu-open {
-    background: #D2AA3D;
+    background: #00375B;
     color: white;
   }
   .main-nav.menu-open .nav-link {
