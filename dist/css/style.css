@@ -12397,6 +12397,11 @@ body {
   color: #D2AA3D;
 }
 
+.main-nav.showing .navbar-nav {
+  overflow-y: auto;
+  height: calc(100vh - 67px);
+}
+
 @media screen and (max-width: 786px) {
   .main-nav.menu-open {
     background: #00375B;

@@ -18,8 +18,9 @@ function installMediaQueryWatcher(mediaQuery, layoutChangedCallback) {
 installMediaQueryWatcher("(max-width: 786px)", function (matches) {
   if (matches) {
     $(".navbar-toggler").click(function () {
-      $(".main-nav").toggleClass("menu-open");
-      $(".nav-burger").toggleClass("open");
+      $(".main-nav").toggleClass("menu-open showing");
+      $(".nav-burger").toggleClass("open ");
+      $("body").toggleClass("overflow-hidden");
       var tl = new TimelineMax().staggerFrom(
         ".menu-open .nav-item a",
         animationDuration, {
