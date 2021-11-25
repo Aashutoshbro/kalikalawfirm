@@ -105,4 +105,4 @@ gsap.to(".banner", {
   },
 });
 // INITIALIZE ANIMATION ON SCROLL
-AOS.init();
+AOS.init({ disable: "mobile" });
