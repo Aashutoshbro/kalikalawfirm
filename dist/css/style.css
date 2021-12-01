@@ -12676,6 +12676,18 @@ section {
 .practice_areas__item.is-light:hover {
   background: #e9ecef;
 }
+.practice_areas__item.is-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.practice_areas__item.is-list img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .k-card-package {
   height: 100%;
