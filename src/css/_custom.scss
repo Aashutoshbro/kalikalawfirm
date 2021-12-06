@@ -490,8 +490,16 @@ section {
         background: #06456E;
         flex-wrap: wrap;
             text-decoration: none;
+            transition: all 0.3s;
+&.dark-blue{
+    &:hover{
+                background: darken(#06456E, 2%);
 
-
+    }
+}
+.desc{
+    color:white;
+}
         >* {
             margin: 1rem;
         }
@@ -552,6 +560,15 @@ section {
 
 .blog {
     &__item {
+        a{
+            text-decoration: none;
+            &:hover{
+
+                h5{
+                color:$kalika-yellow;
+            }
+        }
+        }
         >div {
             padding: 1rem;
         }
@@ -560,13 +577,7 @@ section {
             font-size: 13px;
         }
 
-        a {
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+       
     }
 }
 

@@ -12653,6 +12653,14 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.practice_areas__item.dark-blue:hover {
+  background: #053f64;
+}
+.practice_areas__item .desc {
+  color: white;
 }
 .practice_areas__item > * {
   margin: 1rem;
@@ -12723,17 +12731,17 @@ section {
   color: #00375B;
 }
 
+.blog__item a {
+  text-decoration: none;
+}
+.blog__item a:hover h5, .blog__item a:hover .h5 {
+  color: #D2AA3D;
+}
 .blog__item > div {
   padding: 1rem;
 }
 .blog__item p {
   font-size: 13px;
-}
-.blog__item a {
-  text-decoration: none;
-}
-.blog__item a:hover {
-  text-decoration: underline;
 }
 
 .meta {
